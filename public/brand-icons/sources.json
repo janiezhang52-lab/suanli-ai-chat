@@ -1,0 +1,55 @@
+{
+  "purpose": "Provider identification in private local AI chat",
+  "sources": [
+    {
+      "file": "chatgpt.png",
+      "official_page": "https://chatgpt.com/",
+      "source": "https://chatgpt.com/cdn/assets/favicon-180x180-od45eci6.webp",
+      "dimensions": [
+        180,
+        180
+      ],
+      "conversion": "WebP to PNG; artwork unchanged"
+    },
+    {
+      "file": "kimi.png",
+      "official_page": "https://www.kimi.com/",
+      "source": "https://www.kimi.com/pwa-192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "conversion": "PNG copied without artwork changes"
+    },
+    {
+      "file": "doubao.png",
+      "official_page": "https://www.doubao.com/",
+      "source": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/favicon/new-doubao/192x192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "conversion": "Original PNG"
+    },
+    {
+      "file": "zhipu.png",
+      "official_page": "https://bigmodel.cn/",
+      "source": "https://bigmodel.cn/static/images/favicon.png",
+      "dimensions": [
+        90,
+        90
+      ],
+      "conversion": "Original PNG"
+    },
+    {
+      "file": "deepseek.png",
+      "official_page": "https://www.deepseek.com/",
+      "source": "https://www.deepseek.com/favicon.ico",
+      "dimensions": [
+        225,
+        225
+      ],
+      "conversion": "ICO to PNG; artwork unchanged"
+    }
+  ]
+}
