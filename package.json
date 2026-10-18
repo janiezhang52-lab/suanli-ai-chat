@@ -1,0 +1,36 @@
+{
+  "name": "suanli-ai-chat",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build:sdk": "tsc -p vendor/siwc-local/tsconfig.json",
+    "build": "npm run build:sdk && tsc --noEmit && vite build",
+    "start": "node scripts/start.mjs",
+    "test": "node --experimental-strip-types --test server/*.test.mjs src/lib/*.test.ts",
+    "import:secrets": "node scripts/import-secrets.mjs"
+  },
+  "dependencies": {
+    "@siwc/local": "file:vendor/siwc-local",
+    "jose": "^6.1.0",
+    "openai": "^7.21.0",
+    "proper-lockfile": "^4.1.2",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^1.31.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/proper-lockfile": "^4.1.4",
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "22.19.19"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

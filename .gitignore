@@ -1,0 +1,35 @@
+# Dependencies and generated files
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+coverage/
+
+# Private state, credentials, exports, and development backups
+.local-data*/
+work/
+.env
+.env.*
+config.local.json
+chat-state*.json
+provider-secrets*
+chatgpt-auth*
+chatgpt-host*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Native build products
+*.app/
+*.dmg
+*.zip
+desktop-app/
+desktop/.build-check
+
+# Provider marks are local customization, not distributed assets
+public/brand-icons/*.png
+public/brand-icons/*.ico
