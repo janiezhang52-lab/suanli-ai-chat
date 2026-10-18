@@ -1,0 +1,29 @@
+// Modified for the Suanli personal local chat project: standalone TypeScript
+// build settings replace the upstream workspace configuration. src/ is unchanged.
+// These changes use the accompanying Sign-in with ChatGPT DevKit Noncommercial License v1.0.
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "types": [
+      "node"
+    ],
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
